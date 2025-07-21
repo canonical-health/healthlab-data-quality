@@ -1,0 +1,20 @@
+[project]
+name = "healthlab-data-quality"
+version = "0.1.0"
+description = "AI-based experiments on healthcare data quality using FHIR and ML"
+authors = [
+    {name = "Dan Hardan", email = "Dan.Hardan@CanonicalHealth.com"}
+]
+readme = "README.md"
+requires-python = "==3.12"
+
+dependencies = [
+    "keras",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "tensorflow"
+]
+
+[project.urls]
+Homepage = "https://github.com/canonical-health/healthlab-data-quality"

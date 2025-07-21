@@ -1,3 +1,19 @@
+Metadata-Version: 2.4
+Name: healthlab-data-quality
+Version: 0.1.0
+Summary: AI-based experiments on healthcare data quality using FHIR and ML
+Author-email: Dan Hardan <Dan.Hardan@CanonicalHealth.com>
+Project-URL: Homepage, https://github.com/canonical-health/healthlab-data-quality
+Requires-Python: ==3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: keras
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tensorflow
+Dynamic: license-file
+
 # HealthLab: Data Quality
 
 **AI-Driven Anomaly Detection and Plausibility Checks for Healthcare Data**
@@ -58,8 +74,5 @@ MIT License. See `LICENSE` file for details.
 
 ## Contact
 
+Created by [@danhardan](https://github.com/danhardan)  
 For questions, please open an [issue](https://github.com/canonicalhealth/healthlab-dataquality/issues).
-
-## Appendix
-- Initializing uv with Jupyter: `uv run --with jupyter jupyter lab`
-    - [Using uv with Jupyter](https://docs.astral.sh/uv/guides/integration/jupyter/)
