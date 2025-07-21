@@ -1,4 +1,6 @@
-# Folder Structure
+# HealthLab: Data Quality: Developer Guide
+
+## Folder Structure
 ```
 health-dq-lab/
 ├── data/
@@ -40,9 +42,13 @@ health-dq-lab/
 └── .gitignore
 ```
 
-# Ideas
+## Future Considerations
 - Equate ML Classification Threshold Metrics to DQ Applications
     - Recall: probability of detection (True Positive Rate)
     - probability of false alarm (False Positive Rate)
     - Accuracy, Precision, Recall, False Positive Rate
     - 
+
+## Commands
+- Initializing uv with Jupyter: `uv run --with jupyter jupyter lab`
+    - [Using uv with Jupyter](https://docs.astral.sh/uv/guides/integration/jupyter/)

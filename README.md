@@ -59,7 +59,3 @@ MIT License. See `LICENSE` file for details.
 ## Contact
 
 For questions, please open an [issue](https://github.com/canonicalhealth/healthlab-dataquality/issues).
-
-## Appendix
-- Initializing uv with Jupyter: `uv run --with jupyter jupyter lab`
-    - [Using uv with Jupyter](https://docs.astral.sh/uv/guides/integration/jupyter/)
